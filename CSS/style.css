@@ -1,0 +1,24 @@
+.sandwich img{border-radius:50% ; border-color: rgb(0, 121, 177); border-width: 10px;
+border-style: solid;}
+
+div#container { 
+    width: 100%; 
+    }
+    div.item
+    {
+    width: 100%;
+    margin: 2px;
+    background-color: rgb(255, 245, 191);
+    }
+    div.clear
+    {
+    clear: both;
+    }
+    @media screen and (min-width: 800px) {
+    div.item
+    {
+    float: left;
+    width: 30%;
+    }
+    }
+    
